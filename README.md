@@ -1,6 +1,6 @@
 # The Gym Group UK SQL Project
 
-![Project Image Placeholder](https://github.com/najirh/firpro-p1/blob/main/Fitpro.png) 
+![The Gym Group](https://www.hassra.org.uk/images/pictures/products/the-gym-group-tile-(1200x630-ffffff).png?v=ae337b18) 
 
 Welcome to my first SQL project, where I analyze real-time gym data from **FitPro Gym**! This project uses a dataset of **10,000 visit records** to explore and analyze gym membership and visit data, answering key business questions that can help a fitness center understand its customer base better and optimize its services.
 
