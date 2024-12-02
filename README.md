@@ -123,9 +123,37 @@ Order by 1;
 
 ```
 6. List members with a **Quarterly membership** aged between **20 and 30**.
+```sql
 
+select 
+	members.member_id,
+	members.name,
+	memberships.age,
+	memberships.membership_type
+from members
+Inner join memberships
+on members.member_id = memberships.member_id
+Where 
+	memberships.membership_type = 'Quaterly' and 
+	memberships.age Between 20 and 30
+Order by 1;
+
+```
 Additional aggregations and grouping:
 6. Count total visits made by each member.
+```sql
+
+select 
+	members.name,
+	members.member_id,
+	count(visits.visit_id) as total_visits
+from visits
+inner join members
+on members.member_id = visits.member_id
+Group by 2
+Order by 3 Desc;
+
+```
 7. Count members by membership type (e.g., Monthly, Weekly, Quarterly).
 8. Calculate the average age of members, grouped by membership type.
 9. Total visits for each visit date.
