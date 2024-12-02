@@ -57,8 +57,15 @@ The following queries were created to solve specific business questions. Each qu
 
 1. Retrieve the **name** and **membership_type** of female members.
 '''sql
-SELECT *
-FROM members;
+
+select 
+	membership_type,
+	gender,
+	count(*) as members_enrolled
+from memberships
+GROUP BY 1, 2
+ORDER BY 1;
+
 '''
 3. Find members who have a **Monthly membership** and joined after **2023-11-01**.
 4. List the **name** and **status** of active members over **25**.
