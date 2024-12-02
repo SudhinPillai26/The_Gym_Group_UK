@@ -85,6 +85,21 @@ Order by 1;
 
 ```
 4. List the **name** and **status** of active members over **25**.
+```sql
+
+select 
+	members.member_id,
+	members.name,
+	memberships.age,
+	memberships.status
+from members
+Inner Join memberships
+On members.member_id = memberships.member_id
+Where 
+	memberships.status = 'Active' and memberships.age > 25
+Order by 1;
+
+```
 5. Get details of **visits** on a specific date (**2024-01-01**).
 6. List members with a **Quarterly membership** aged between **20 and 30**.
 
