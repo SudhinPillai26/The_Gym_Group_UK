@@ -59,12 +59,14 @@ The following queries were created to solve specific business questions. Each qu
 ```sql
 
 select 
-	membership_type,
-	gender,
-	count(*) as members_enrolled
-from memberships
-GROUP BY 1, 2
-ORDER BY 1;
+	members.name,
+	memberships.gender,
+	memberships.membership_type
+
+From members
+Inner Join memberships
+ON members.member_id = memberships.member_id
+Where memberships.gender = 'F';
 
 ```
 3. Find members who have a **Monthly membership** and joined after **2023-11-01**.
