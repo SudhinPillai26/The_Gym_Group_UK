@@ -101,6 +101,27 @@ Order by 1;
 
 ```
 5. Get details of **visits** on a specific date (**2024-01-01**).
+```sql
+
+select 
+	members.member_id,
+	members.name,
+	memberships.age,
+	memberships.gender,
+	memberships.membership_type,
+	memberships.status,
+	visits.visit_date,
+	visits.check_in_time,
+	visits.check_out_time
+from visits
+left join members
+on visits.member_id = members.member_id
+Inner Join memberships
+on memberships.member_id = members.member_id
+Where visits.visit_date = '2024-01-01'
+Order by 1;
+
+```
 6. List members with a **Quarterly membership** aged between **20 and 30**.
 
 Additional aggregations and grouping:
