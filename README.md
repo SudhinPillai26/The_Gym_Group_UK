@@ -70,6 +70,20 @@ Where memberships.gender = 'F';
 
 ```
 3. Find members who have a **Monthly membership** and joined after **2023-11-01**.
+```sql
+
+select 
+	members.member_id,
+	members.name,
+	memberships.membership_type,
+	memberships.join_date
+from members
+Inner Join memberships
+ON members.member_id = memberships.member_id
+Where memberships.membership_type = 'Monthly' and memberships.join_date > '2023-11-01'
+Order by 1;
+
+```
 4. List the **name** and **status** of active members over **25**.
 5. Get details of **visits** on a specific date (**2024-01-01**).
 6. List members with a **Quarterly membership** aged between **20 and 30**.
