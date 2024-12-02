@@ -57,8 +57,8 @@ The following queries were created to solve specific business questions. Each qu
 
 1. Retrieve the **name** and **membership_type** of female members.
 '''sql
-  SELECT *
-  FROM members
+SELECT *
+FROM members;
 '''
 3. Find members who have a **Monthly membership** and joined after **2023-11-01**.
 4. List the **name** and **status** of active members over **25**.
