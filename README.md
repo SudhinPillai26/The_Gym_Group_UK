@@ -287,7 +287,7 @@ The `analysis.sql` file contains all SQL queries developed for this project. Eac
    git clone https://github.com/yourusername/fitpro-gym-sql-project.git
    ```
 2. **Set Up the Database**:
-   - Run the `schema.sql` script to set up tables and insert sample data.
+   - Run the `TheGymGroup_Schemas.sql` script to set up tables and insert sample data.
 
 3. **Run Queries**:
    - Execute each query in `analysis.sql` to explore and analyze the data.
