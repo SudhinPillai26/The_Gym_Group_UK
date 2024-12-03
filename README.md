@@ -2,7 +2,7 @@
 
 ![The Gym Group](https://www.hassra.org.uk/images/pictures/products/the-gym-group-tile-(1200x630-ffffff).png?v=ae337b18) 
 
-Welcome to my first SQL project, where I analyze real-time gym data from **FitPro Gym**! This project uses a dataset of **10,000 visit records** to explore and analyze gym membership and visit data, answering key business questions that can help a fitness center understand its customer base better and optimize its services.
+Welcome to my SQL project, where I analyze real-time gym data from **The Gym Group UK**! This project uses a dataset of **10,000 visit records** to explore and analyze gym membership and visit data, answering key business questions that can help a fitness center understand its customer base better and optimize its services.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -18,7 +18,7 @@ Welcome to my first SQL project, where I analyze real-time gym data from **FitPr
 
 ## Introduction
 
-This project aims to demonstrate essential SQL skills by analyzing a dataset from FitPro Gym. Using SQL, I explored membership details, member demographics, and visit patterns to derive actionable insights. This project showcases fundamental SQL techniques, including creating tables, writing queries, and analyzing data.
+This project aims to demonstrate essential SQL skills by analyzing a dataset from The Gym Group UK Gym. Using SQL, I explored membership details, member demographics, and visit patterns to derive actionable insights. This project showcases fundamental SQL techniques, including creating tables, writing queries, and analyzing data.
 
 ## Project Structure
 
@@ -301,7 +301,6 @@ If you have any questions or feedback, feel free to create an issue or reach out
 ---
 
 ## Contact Me
-
-📄 **[Resume](#)**  
-📧 **[Email](mailto:your.email@example.com)**  
-📞 **Phone**: +123-456-7890  
+  
+📧 **[Email](mailto:sudhinpillai1998@gmail.com)**  
+📞 **Phone**: +44 7909308158  
